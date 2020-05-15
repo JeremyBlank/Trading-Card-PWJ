@@ -1,0 +1,63 @@
+.card {
+    margin: auto;
+    padding: 15px;
+    width: 350px;
+    border: 1px solid rgb(31, 30, 30);
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(12, 12, 12);
+    Background: #161616;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-stretch: bold;
+    color: #080808;
+    Background-image: url("https://i.pinimg.com/originals/00/d8/5e/00d85e697698b2931c6faf443b21adf2.jpg");
+}
+
+h3 {
+    margin: 0 0 15px;
+    padding: 5px 10px;
+    border: 1px solid rgb(248, 247, 247);
+    border-radius: 10px;
+    background: rgb(170, 28, 28);
+
+}
+
+.image-div {
+    margin: 15px auto;
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-div img {
+    max-width: 500px;
+    max-height: auto;
+    object-fit: fill;
+}
+
+.info {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid rgb(7, 7, 7);
+    border-radius: 10px;
+    background: rgb(189, 187, 187);
+    font-size: 0.8em;
+}
+
+#description {
+    font-style: italic;
+}
+
+#list-items {
+    list-style: none;
+    padding-left: 0;
+}
+
+#list-items span {
+    font-weight: bold;
+}
+
+.indent {
+    padding-left: 10%;
+}
